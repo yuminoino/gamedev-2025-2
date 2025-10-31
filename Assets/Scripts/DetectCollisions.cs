@@ -11,9 +11,6 @@ public class DetectCollisions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        {
-            Destroy(gameObject);
-        }
     }
 
     void OnTriggerEnter(Collider other)
